@@ -8,6 +8,7 @@ repositories {
 }
 
 dependencies {
+    implementation("com.squareup.okhttp3:okhttp:4.9.3")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
     testImplementation("org.assertj:assertj-core:3.22.0")
 
